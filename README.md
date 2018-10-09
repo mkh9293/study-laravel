@@ -1,10 +1,7 @@
 # study/laravel
-laravel framework study
+laravel framework study<br>
 
-step1 : markdown viewer<br><br>
-
-step2 : forum<br><br>
-
-step3 : RESTful API<br><br>
-
-step4 : code deployment<br><br>
+step1 : markdown viewer<br>
+step2 : forum<br>
+step3 : RESTful API<br>
+step4 : code deployment<br>
