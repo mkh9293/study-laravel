@@ -2,13 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="63fa8be4-3058-4ddf-98be-defd2a2a70fb" name="Default" comment="create new markdownViewer project">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/php.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/markdownViewer/resources/views/errors/notice.blade.php" />
-      <change beforePath="$PROJECT_DIR$/.idea/laravel.iml" afterPath="$PROJECT_DIR$/.idea/laravel.iml" />
-      <change beforePath="$PROJECT_DIR$/markdownViewer/app/Exceptions/Handler.php" afterPath="$PROJECT_DIR$/markdownViewer/app/Exceptions/Handler.php" />
-      <change beforePath="$PROJECT_DIR$/markdownViewer/composer.json" afterPath="$PROJECT_DIR$/markdownViewer/composer.json" />
-      <change beforePath="$PROJECT_DIR$/markdownViewer/composer.lock" afterPath="$PROJECT_DIR$/markdownViewer/composer.lock" />
-      <change beforePath="$PROJECT_DIR$/markdownViewer/routes/web.php" afterPath="$PROJECT_DIR$/markdownViewer/routes/web.php" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/markdownViewer/.env" afterPath="$PROJECT_DIR$/markdownViewer/.env" />
+      <change beforePath="$PROJECT_DIR$/markdownViewer/resources/views/errors/notice.blade.php" afterPath="$PROJECT_DIR$/markdownViewer/resources/views/errors/notice.blade.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -51,8 +47,8 @@
       <file leaf-file-name="Handler.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/markdownViewer/app/Exceptions/Handler.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+            <state relative-caret-position="378">
+              <caret line="51" column="41" lean-forward="true" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
               <folding>
                 <element signature="e#34#48#0#PHP" expanded="true" />
               </folding>
@@ -63,28 +59,32 @@
       <file leaf-file-name="notice.blade.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/markdownViewer/resources/views/errors/notice.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21">
-              <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="294">
+              <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+              <folding>
+                <marker date="1539702012966" expanded="true" signature="70:76" ph="..." />
+                <marker date="1539702012966" expanded="true" signature="694:700" ph="..." />
+                <marker date="1539702012966" expanded="true" signature="717:724" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/markdownViewer/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="294">
-              <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name=".env" pinned="false" current-in-tab="false">
+      <file leaf-file-name=".env" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/markdownViewer/.env">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="21">
+              <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -144,8 +144,8 @@
         <option value="$PROJECT_DIR$/markdownViewer/routes/web.php" />
         <option value="$PROJECT_DIR$/markdownViewer/app/Documentation.php" />
         <option value="$PROJECT_DIR$/markdownViewer/app/Exceptions/Handler.php" />
-        <option value="$PROJECT_DIR$/markdownViewer/.env" />
         <option value="$PROJECT_DIR$/markdownViewer/resources/views/errors/notice.blade.php" />
+        <option value="$PROJECT_DIR$/markdownViewer/.env" />
       </list>
     </option>
   </component>
@@ -383,7 +383,7 @@
       <option name="presentableId" value="Default" />
       <updated>1539080373379</updated>
       <workItem from="1539080374651" duration="7810000" />
-      <workItem from="1539692386312" duration="3597000" />
+      <workItem from="1539692386312" duration="4042000" />
     </task>
     <task id="LOCAL-00001" summary="create new markdownViewer project">
       <created>1539085743461</created>
@@ -396,7 +396,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="11407000" />
+    <option name="totallyTimeSpent" value="11852000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
@@ -682,36 +682,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markdownViewer/.env">
+    <entry file="file://$PROJECT_DIR$/markdownViewer/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="294">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/markdownViewer/resources/views/errors/notice.blade.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="34" lean-forward="false" selection-start-line="14" selection-start-column="34" selection-end-line="14" selection-end-column="34" />
+          <folding>
+            <marker date="1539702012966" expanded="true" signature="70:76" ph="..." />
+            <marker date="1539702012966" expanded="true" signature="694:700" ph="..." />
+            <marker date="1539702012966" expanded="true" signature="717:724" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/markdownViewer/app/Exceptions/Handler.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="63" column="9" lean-forward="true" selection-start-line="63" selection-start-column="9" selection-end-line="63" selection-end-column="9" />
+        <state relative-caret-position="378">
+          <caret line="51" column="41" lean-forward="true" selection-start-line="51" selection-start-column="41" selection-end-line="51" selection-end-column="41" />
           <folding>
             <element signature="e#34#48#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/markdownViewer/resources/views/errors/notice.blade.php">
+    <entry file="file://$PROJECT_DIR$/markdownViewer/.env">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="21">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/markdownViewer/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="0" lean-forward="true" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <caret line="1" column="13" lean-forward="false" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
           <folding />
         </state>
       </provider>
